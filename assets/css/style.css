@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(86, 74, 74);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: black;
+}
+
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.st{
+    padding: 10px;
+    color:white;
+}
+
+.menu a:hover{
+    display: flex;
+    align-items: center;
+    background-color:  #ffad06;
+    color:#FFFF;
+    border-radius: 100px;
+  
+}
+
+header nav ul, nav li{
+    list-style-type: none; /*tirar a bolinha */
+   
+}
+header nav li{
+    color:white;
+    border-style: groove;
+    border-radius: 50px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: #ffffff;
+}
+
+
+
+.menudois{
+    border: 2px solid black;
+    background-color: #ffad06;
+    
+}
+
+.menudois ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding-right: 20px;
+    border-style: groove;
+   border: orange
+}
+
+.doisprincipal{
+    border: black;
+    border-style: groove;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+
+
+.pesquisados{
+    background-color: black;
+    list-style-type: none; 
+    border: 2px solid rgb(255, 255, 255);
+    max-width: 350px;
+    color: white;  
+}
+
+.pes{
+    text-align: center;
+    background-color: orange;
+    margin: 10%;
+
+}
+
+.sugestao{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
+
+#rodape{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    color:#ffffff;
+    font-size: 15px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ff0909, 0 0 30px #c21c7f, 0 0 40px #fbfd62, 0 0 55px #e9883e, 0 0 75px #b61308;
+}
+
